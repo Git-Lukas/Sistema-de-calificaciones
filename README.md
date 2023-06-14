@@ -5,7 +5,7 @@ Aplicación para gestionar las calificaciones de los supuestos estudiantes.
 ## Tabla de contenidos
 
 - [Resumen](#resumen)
-  - [La Aplicaión](#la-aplicacion)
+  - [Aplicaión](#la-aplicacion)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Mi proceso](#mi-proceso)
@@ -19,7 +19,7 @@ Aplicación para gestionar las calificaciones de los supuestos estudiantes.
 
 ## Resumen
 
-### La Aplicación
+### Aplicación
 
 Los usuarios('los profesores') podrán ser capaces de:
 
