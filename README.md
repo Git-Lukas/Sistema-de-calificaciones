@@ -13,7 +13,7 @@ Aplicación para gestionar las calificaciones de los supuestos estudiantes.
   - [¿Qué he aprendido?](#que-he-aprendido)
   - [Algunos detalles](#algunos-detalles)
   - [Recursos útiles](#recursos-utiles)
-- [Auto](#autor)
+- [Autor](#autor)
 - [Reconocimientos](#reconocimientos)
 
 
