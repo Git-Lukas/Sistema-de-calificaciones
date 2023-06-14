@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Calificaciones</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Listado de calificaciones</h1>
+
+        <div class="alert warning">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong class="alertText">Porfavor ingrese el nombre y email sin espacios!</strong>
+          </div>
+
+        <div class="container-select">
+            <label for="">
+                <form class="form" id="form-profesores">
+                    Profesor:
+                    <input 
+                        type="text"
+                        name="nombre"
+                        id="profesor-nombre"
+                        placeholder="Nombre del profesor"
+                        required
+                    >
+                    <!-- pattern="/^\S/"
+                        title="Sólo un escriba nombre, porfavor" -->
+
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="profesor-email"
+                        placeholder="Email"
+                        required
+                    >
+        
+                    <!-- <select name="opcion" id="select-ocupacion">
+                        <option value="Profesor">Profesor</option>
+                        <option value="estudiante">Estudiante</option>
+                    </select> -->
+                    
+                    <button type="submit" class="agregar-profesor-btn">Acceder</button>
+                </form>
+            </label>
+        </div>
+
+        <section>
+            <div class="card-profesor"></div>
+            <div class="card-estudiante active-card"></div>
+        </section>
+        
+        
+        
+         <template class="template-profesor">
+            <div class="card">
+
+                <div class="card-name">
+                    <h5>Nombre</h5>
+                    <h6>Edad</h6>
+                </div>
+
+                <div class="card-form">
+                    <form id="form-estudiantes">
+                        <input 
+                            type="text"
+                            name="nombre"
+                            id="estudiante-nombre"
+                            placeholder="Nombre del alumno"
+                            required
+                        >
+                        <input 
+                            type="number" 
+                            name="edad" 
+                            id="estudiante-edad"
+                            placeholder="Edad"
+                            required
+                        >
+                        <button type="submit" class="agregar-estudiante-btn">Agregar</button>
+                    </form>
+                </div>
+
+            </div>
+        </template> 
+
+        <template class="template-estudiante">
+            <div class="card-body">
+                <div>
+                    <h5>Nombre</h5>
+                    <h6>Edad</h6>
+                </div>
+                
+                <button type="submit" class="aprobar-btn">Aprobar</button>
+                <button type="submit" class="suspenso-btn">Suspenso</button>
+                <span class="estado">Aprobado</span>
+            </div>
+        </template>
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
