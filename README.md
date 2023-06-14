@@ -21,7 +21,7 @@ Aplicación para gestionar las calificaciones de los supuestos estudiantes.
 
 ### Aplicación
 
-Los usuarios('los profesores') podrán ser capaces de:
+Los usuarios(los profesores) podrán ser capaces de:
 
 - Registrarse en el formulario mediante su nombre e identificador, en este caso, su email.
 
@@ -44,14 +44,13 @@ Los usuarios('los profesores') podrán ser capaces de:
 - Flexbox
 - Creación de la clase Estudiante
 - Crear la clase Profesor mediante la herencia de Estudiante
-- Crear la clase Profesor mediante la herencia de Estudiante
 - Recoger los valores de entrada del formulario con FormData()
 - Delegación de eventos desde el DOM con 'matches()' y 'dataset'
 
 
 ### Que he aprendido
 
-En este proyecto he puesto en práctica todo lo que llevo aprendido de Javascript mediante la programación orientada a objetos. Aunque puede que no sea necesario crear clases para cada objeto, en este caso, para los profesores y estudiantes, la idea final es comenzar a modelar cosas en ambitos del mundo real.
+En este proyecto he puesto en práctica todo lo que llevo aprendido de Javascript mediante la programación orientada a objetos. Aunque puede que en este proyecto no sea necesario crear una clase para cada objeto, es decir, para los profesores y estudiantes, la idea final es comenzar a modelar cosas del mundo real.
 
 Para poder entender toda la lógica del código de JavaScript, es necesario mirar el siguiente 'snippet' creado del elemento HTML:
 
@@ -65,7 +64,7 @@ Para poder entender toda la lógica del código de JavaScript, es necesario mira
 
 'Template' es un mecanismo para mantener el contenido HTML del lado del cliente que no se renderiza cuando se carga una página, pero que posteriormente puede ser instanciado durante el tiempo de ejecución empleando JavaScript.
 
-En resumen, con 'template' podemos evitarnos el usar 'innerHTML' y generar 'Reflow' o tener que crear cada elemento HTML con 'createElement()'.
+En resumen, con 'template' podemos evitarnos el usar 'innerHTML' y generar 'Reflow', o tener que crear cada elemento HTML con 'createElement()'.
 
 ### Recursos utiles
 
